@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Skills = () => {
   return (
@@ -9,6 +10,7 @@ const Skills = () => {
       <Navigation />
       <h1>Skills page</h1>
       <p>My best skills is here !</p>
+      <Footer />
     </div>
   );
 };
