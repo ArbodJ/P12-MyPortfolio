@@ -17,13 +17,19 @@
       
       cursor: pointer;
       text-decoration: none;
+
       li {
-        font-family: $font-italia;
+        font-size: 15px;
+        font-family: $font-mont;
+        // font-weight: bold;
         color: aquamarine;
+        text-shadow: 1px 1px 3px blue;
         transition: 0.2s;
 
         &:hover{
-          color: rgb(255, 119, 21);
+          color: #d7ffcf;
+          text-shadow: 2px 2px 2px green;
+          transition: 0.5s;
         }
       }
     } 
@@ -36,13 +42,14 @@
         height: 4px;
         width: 0;
         background: aquamarine;
+        box-shadow: 2px 2px 7px blue;
         position: absolute;
         border-radius: 10px;
         bottom:0px;
         left: 50%;
         transform: translateX(-50%);
         -webkit-animation: anim 0.3s ease forwards;
-        animation: anim 0.6s ease forwards;
+        animation: anim 0.8s ease forwards;
     
         @-webkit-keyframes anim {
           to {
@@ -58,3 +65,22 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .navigation ul {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navigation ul {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+  .navigation ul a li {
+    font-size: 18px;
+  }
+}
+
+
