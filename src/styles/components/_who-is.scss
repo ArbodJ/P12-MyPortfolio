@@ -1,0 +1,34 @@
+.description-box {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .title-description {
+    font-family: $font-italia;
+    font-size: 25px;
+  }
+  .text-description {
+    font-family: $font-mont;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description-box .title-description {
+    font-size: 35px;
+  }
+  .description-box .text-description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .description-box .title-description {
+    font-size: 40px;
+  }
+  .description-box .text-description {
+    font-size: 18px;
+  }
+}

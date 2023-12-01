@@ -21,7 +21,6 @@
       li {
         font-size: 15px;
         font-family: $font-mont;
-        // font-weight: bold;
         color: aquamarine;
         text-shadow: 1px 1px 3px blue;
         transition: 0.2s;
@@ -70,16 +69,20 @@
   .navigation ul {
     flex-direction: row;
   }
+  .navigation ul a li {
+    font-size: 18px;
+    margin: 0 10px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .navigation ul {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 80%;
   }
   .navigation ul a li {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 

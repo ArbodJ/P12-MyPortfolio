@@ -14,7 +14,8 @@ const Footer = () => {
         <img src={js} alt="Logo JavaScript" className='logo'/>
         <img src={react} alt="Logo react" className='logo'/>
       </div>
-      <p className='product'>Arbod Jerome alias AJIssaProduction©. Tous droits reservés.</p>
+      <p className='product'>Arbod Jerome alias AJIssaProduction©</p>
+      <p className='product'>Tous droits reservés.</p>
     </footer>
   );
 };
