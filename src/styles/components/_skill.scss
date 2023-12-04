@@ -1,0 +1,98 @@
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  background: #f3eece;
+
+  .box-title-skill {
+    display: flex;
+    margin: 30px 0;
+
+    .title-skill {
+      font-family: $font-blackops;
+      font-weight: 100;
+      font-size: 35px;
+    }
+  }
+  
+
+  .logo-skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .title-logo {
+      font-family: $font-mont;
+      border: 5px double aqua;
+      border-radius: 15px;
+      padding: 5px 15px;
+      margin-bottom: 10px;
+    }
+
+    .box-cards {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+      width: 100%;
+
+      .card-skill {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+        .img-skill {
+          width: 32px;
+          height: 32px;
+        }
+
+        .text-logo {
+          font-family: $font-blackops;
+          font-weight: 100;
+          font-size: 19px;
+          margin-top: 5px;
+        }
+        .progress-bar{
+          display: flex;
+          width: 100%;
+          height: 15px;
+          border: 1px solid #000;
+          border-radius: 10px;
+          background: #fff;
+
+          .full-bar {
+            display: flex;
+            width: 90%;
+            height: 15px;
+            border-radius: 10px;
+            background: aquamarine;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 790px) {
+  .skill-box .box-title-skill .title-skill {
+    font-size: 55px;
+  }
+  .skill-box .logo-skill .title-logo{
+    font-size: 30px;
+  }
+  .skill-box .logo-skill .box-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .skill-box .logo-skill .box-cards .card-skill .img-skill{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skill-box .logo-skill .box-cards .card-skill .img-skill{
+    width: 48px;
+    height: 48px;
+  }
+}

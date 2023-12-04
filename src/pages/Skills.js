@@ -2,17 +2,17 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import BoxSkills from '../components/BoxSkills';
 
-const Skills = () => {
+const Skill = () => {
   return (
-    <div>
+    <div className='page'>
       <Header />
       <Navigation />
-      <h1>Skills page</h1>
-      <p>My best skills is here !</p>
+      <BoxSkills />
       <Footer />
     </div>
   );
 };
 
-export default Skills;
+export default Skill;

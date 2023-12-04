@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Error404 = () => {
   return (
-    <div>
+    <div className='page'>
       <Header />
       <h1>!!! AOUCH !!!</h1>
       <p>What you mean, yes, no, maybe, i don't know, can you repeat the question ?</p>

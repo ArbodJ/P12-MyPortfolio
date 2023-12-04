@@ -4,7 +4,7 @@
   align-items: center;
   border-radius: 0 0 30px 30px;
   background: #000;
-  margin: 5px 0;
+  padding: 5px 0;
   .tech-build-site {
     margin: 5px 0;
     font-size: 12px;
@@ -30,6 +30,10 @@
 @media screen and (min-width: 768px) {
   .footer-box .logo-box {
     width: 40%;
+  }
+  .footer-box .logo-box .logo {
+    width: 30px;
+    height: 30px;
   }
 }
 
