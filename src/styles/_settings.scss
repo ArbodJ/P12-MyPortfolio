@@ -28,10 +28,11 @@ body{
   border-radius: 30px;
 }
 #root {
+  width: 100%;
   max-width: 1440px;
+  
 }
-.page{
+.page-box {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }

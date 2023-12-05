@@ -6,7 +6,7 @@ import BoxProject from '../components/BoxProject';
 
 const Projects = () => {
   return (
-    <div className='page'>
+    <div className='page-box'>
       <Header />
       <Navigation />
       <BoxProject />

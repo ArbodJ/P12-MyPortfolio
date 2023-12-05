@@ -6,7 +6,7 @@ import WhoIs from '../components/WhoIs';
 
 const Home = () => {
   return (
-    <div className='page'>
+    <div className='page-box'>
       <Header />
       <Navigation />
       <WhoIs />

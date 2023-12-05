@@ -6,7 +6,7 @@ import BoxSkills from '../components/BoxSkills';
 
 const Skill = () => {
   return (
-    <div className='page'>
+    <div className='page-box'>
       <Header />
       <Navigation />
       <BoxSkills />
