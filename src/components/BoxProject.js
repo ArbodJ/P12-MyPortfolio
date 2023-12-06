@@ -16,7 +16,7 @@ const BoxProject = () => {
           <p className="text-title-project">Booki</p>
           <p className="text-explain-project">Agence de location d'hébergements de vacances</p>
           <p className="text-description"><strong>Decription</strong> : Transformer une maquette en site web</p>
-          <p className="text-objectif"><strong>Objectif</strong> : Gérer le code, la responsivité et le positionnement des éléments</p>
+          <p className="text-objectif"><strong>Objectif</strong> : Gérer le code, la responsivité et le positionnement des éléments HTML5/CSS3</p>
           </figcaption>
         </a>
       </figure>
@@ -27,7 +27,7 @@ const BoxProject = () => {
           <p className="text-title-project">ohmyfood</p>
           <p className="text-explain-project">site de pré-commande de menu</p>
           <p className="text-description"><strong>Decription</strong> : concevoir un site en mobile first</p>
-          <p className="text-objectif"><strong>Objectif</strong> : Gérer le code, la responsivité et les animations CSS3</p>
+          <p className="text-objectif"><strong>Objectif</strong> : Mobile first HTML5 et les animations CSS3</p>
           </figcaption>
         </a>
       </figure>
