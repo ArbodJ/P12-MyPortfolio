@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-LIEN PORTFOLIO HÉBERGÉ : (https://p12-my-portfolio.vercel.app)
+# Link to portfolio online
+LINK TO PORTFOLIO [lien](https://p12-my-portfolio.vercel.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
